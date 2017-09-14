@@ -1,0 +1,81 @@
+// Imports
+
+@font-face {
+  font-family: "Diamond Dust";
+  src: url('components/srep/fonts/diamond_dust.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+// HTML Elements
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// Bootstrap
+
+.jumbotron {
+  background: rgba(0,0,0,0);
+  // border: 1px solid black;
+  // background: url('./components/srep/images/bkgd-fall.png');
+}
+a.active {
+  border-bottom: 4px solid red;
+  background: #202020 !important;
+}
+a, a:hover {
+  color: white;
+}
+nav.navbar {
+  // background: url('./components/srep/images/bkgd-pattern.png');
+  background: rgba(23, 20, 17, 0.70);
+}
+
+.nav-pills {
+  .nav-link {
+    border-radius: 0;
+    background: rgba(23, 20, 17, 0.7);
+  }
+}
+
+// User-Defined
+
+.hero {
+  background: url('./components/srep/images/bkgd-fall.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner {
+  background: white;
+  color: #202020;
+  height: 60px;
+}
+
+.heading {
+  font-family: 'Diamond Dust';
+  font-size: 16em;
+}
+
+.subheading {
+  font-family: 'oswald', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5em;
+}
+
+.search-form {
+  background: rgba(39, 34, 28, 0.70);
+  border-radius: 4px;
+  color: white;
+}
+
+#search-box {
+  font-size: 1.5em;
+}
+
+.news {
+  background: url('./components/srep/images/wood-leaf.png');
+  background-position: center center;
+  height: 400px;
+}

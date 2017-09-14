@@ -1,0 +1,116 @@
+
+
+
+
+
+.brick-foundation {
+  p {
+    text-indent: 40px;
+  }
+}
+.brick-column-container {
+  @media (max-width: 767px) {
+    background: #fff;
+  }
+}
+.brick-columns {
+  border: none;
+}
+@media (min-width: 767px) {
+  #column-1 {
+    // border: 1px solid black;
+    position: relative;
+    left: 0px;
+    background: url('components/srep/images/diagonal-pattern.png');
+    max-width: 17%;
+    h1 {
+      font-size: 1rem;
+    }
+    .card {
+      border: none;
+      background: none;
+    }
+  }
+  #column-2 {
+    // border: 1px solid black;
+    position: relative;
+    max-width: 60%;  
+    h1 {
+      font-size: 3rem;
+    }
+    .card {
+      border: none;
+      background: none;
+    }
+  }
+  #column-3 {
+    // border: 1px solid black;
+    position: relative;
+    background: rgba(255,255,255,.3);
+    max-width: 23%;
+    h1 {
+      font-size: 1rem;
+    }
+    .card {
+      border-radius: 0;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+    .last-brick {
+      .card {
+        border-bottom: none;
+      }
+    }
+  }
+}
+@media (min-width: 1600px) {
+  #column-3 {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
+
+
+.brick {
+  position: relative;
+  /* offset */
+  top: 100px;
+  width: 80%;
+  min-width: 400px;
+  vertical-align: top;
+  opacity: 0;
+  img {
+    width: 90%;
+  }
+  .card {
+    border-radius: 10px;
+    @media (max-width: 767px) {
+      box-shadow: 1px 1px 0px #ccc;
+    }
+  }
+  @media (min-width: 767px) {
+    width: 90%;
+    min-width: 0;
+  }
+  @media (min-width: 900px) {
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
