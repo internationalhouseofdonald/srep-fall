@@ -125,7 +125,7 @@ nav.navbar {
 }
 
 .search-form {
-  background: rgba(39, 34, 28, 0.70);
+  background: rgba(39, 34, 28, .9);
   border-radius: 4px;
   color: white;
 }
@@ -170,4 +170,15 @@ nav.navbar {
   color: white;
   font-family: 'Raleway';
   border-bottom: 26px solid $frankincense;
+}
+
+
+
+// jQuery UI
+
+#slider {
+  margin: 10px;
+}
+.ui-slider-range {
+  background: dodgerblue;
 }

@@ -11,7 +11,14 @@ $(document).ready(function() {
   });
   $(window).resize(function() {
     animate_bricks();
-  })
+  });
+  $('#slider').slider({
+    min: 100000,
+    max: 1000000,
+    step: 25000,
+    range: true,
+    values: [250000, 350000]
+  });
 });
 
 function animate_bricks() {
