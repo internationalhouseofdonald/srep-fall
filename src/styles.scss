@@ -18,6 +18,21 @@ $rose: #D4968C;
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Money Penny Script";
+  src: url('components/srep/fonts/moneypenny-script.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Money Penny Sans";
+  src: url('components/srep/fonts/moneypenny-sans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 // HTML Elements
 
 body {
@@ -107,7 +122,7 @@ nav.navbar {
 }
 
 .heading {
-  font-family: 'Diamond Dust';
+  font-family: 'Money Penny Script';
   @media (max-width: 359px) {
     font-size: 7.5em;
   }
@@ -126,8 +141,9 @@ nav.navbar {
 }
 
 .subheading {
-  font-family: 'oswald', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Money Penny Sans', 'oswald', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 1.5em;
+  margin-left: 140px;
 }
 
 .search-form {
