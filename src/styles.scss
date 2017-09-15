@@ -102,7 +102,21 @@ nav.navbar {
 
 .heading {
   font-family: 'Diamond Dust';
-  font-size: 16em;
+  @media (max-width: 359px) {
+    font-size: 7.5em;
+  }
+  @media (min-width: 360px) {
+    font-size: 8em;
+  }
+  @media (min-width: 576px) {
+    font-size: 10em;
+  }
+  @media (min-width: 768px) {
+    font-size: 14em;
+  }
+  @media (min-width: 992px) {
+    font-size: 18em;
+  }
 }
 
 .subheading {
@@ -117,13 +131,36 @@ nav.navbar {
 }
 
 #search-box {
-  font-size: 1.5em;
+  font-size: 1.25em;
+  @media (min-width: 992px) {
+    font-size: 1.5em;
+  }
 }
 
-.news {
+.trending-now-container {
   background: url('./components/srep/images/wood-leaf.png');
   background-position: center center;
   height: 400px;
+}
+.new-builds-container {
+  background: lighten($frankincense, 10%);
+  min-height: 300px;
+  color: white;
+  .card {
+    background: $frankincense;
+  }
+}
+.find-your-neighborhood-container {
+  background: lighten($frankincense, 20%);
+  min-height: 300px;
+  color: white;
+  .card {
+    background: $frankincense;
+  }
+}
+
+.search-neighborhood-label {
+  font-size: 1.25em;
 }
 
 
@@ -132,4 +169,5 @@ nav.navbar {
   min-height: 300px;
   color: white;
   font-family: 'Raleway';
+  border-bottom: 26px solid $frankincense;
 }
