@@ -3,10 +3,8 @@
 
 
 
-.brick-foundation {
-  p {
-    text-indent: 40px;
-  }
+.foundation {
+  width: 100%;
 }
 .brick-column-container {
   @media (max-width: 767px) {
@@ -34,7 +32,7 @@
   #column-2 {
     // border: 1px solid black;
     position: relative;
-    max-width: 60%;  
+    max-width: 58%;  
     h1 {
       font-size: 3rem;
     }
@@ -47,7 +45,7 @@
     // border: 1px solid black;
     position: relative;
     background: rgba(255,255,255,.3);
-    max-width: 23%;
+    max-width: 22%;
     h1 {
       font-size: 1rem;
     }

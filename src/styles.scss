@@ -1,3 +1,7 @@
+// Variables
+$frankincense: #46433E;
+$rose: #D4968C;
+
 // Imports
 
 @font-face {
@@ -20,24 +24,55 @@ body {
   margin: 0;
   padding: 0;
 }
+li {
+  list-style-type: none;
+}
 
 // Bootstrap
+
+.dropdown-menu {
+  position: absolute;
+  border-radius: 0px !important;
+  border: 3px double $frankincense;
+  background: #202020;
+  @media (min-width: 992px) {
+    top: 60px;
+  }
+  .dropdown-item {
+    color: rgba(255,255,255,.7);
+      &:hover {
+        color: white;
+        background: #141414;
+      }
+  }
+}
 
 .jumbotron {
   background: rgba(0,0,0,0);
   // border: 1px solid black;
   // background: url('./components/srep/images/bkgd-fall.png');
 }
-a.active {
-  border-bottom: 4px solid red;
+.search-options {
+  color: white;
+  &:hover {
+    color: white;
+  }
+  &:visited {
+    color: white;
+  }
+}
+.search-options.active {
+  color: white;
+  border-bottom: 4px solid $rose;
   background: #202020 !important;
 }
-a, a:hover {
-  color: white;
+.search-options:not(.disabled):hover {
+  border-bottom: 4px solid $rose;
+  background: #202020 !important;
 }
 nav.navbar {
   // background: url('./components/srep/images/bkgd-pattern.png');
-  background: rgba(23, 20, 17, 0.70);
+  background: rgba(23, 20, 17, 0.87);
   .navbar-brand {
     font-family: 'Dalliance';
     font-size: 2em;
@@ -89,4 +124,12 @@ nav.navbar {
   background: url('./components/srep/images/wood-leaf.png');
   background-position: center center;
   height: 400px;
+}
+
+
+.footer-container {
+  background: lighten($frankincense, 30%);
+  min-height: 300px;
+  color: white;
+  font-family: 'Raleway';
 }
