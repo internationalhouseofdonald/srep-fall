@@ -124,13 +124,13 @@ nav.navbar {
 .heading {
   font-family: 'Money Penny Script';
   @media (max-width: 359px) {
-    font-size: 7.5em;
+    font-size: 5.6em;
   }
   @media (min-width: 360px) {
-    font-size: 8em;
+    font-size: 7em;
   }
   @media (min-width: 576px) {
-    font-size: 10em;
+    font-size: 11em;
   }
   @media (min-width: 768px) {
     font-size: 14em;
@@ -142,8 +142,25 @@ nav.navbar {
 
 .subheading {
   font-family: 'Money Penny Sans', 'oswald', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 1.5em;
-  margin-left: 140px;
+  @media (max-width: 359px) {
+    font-size: 1em;
+    margin-top: 20px;
+  }
+  @media (min-width: 360px) {
+    font-size: 1.5em;
+    margin-top: 25px;
+  }
+  @media (min-width: 576px) {
+    font-size: 2em;
+    margin-top: 40px;
+  }
+  @media (min-width: 768px) {
+    font-size: 3em;
+  }
+  @media (min-width: 992px) {
+    font-size: 3em;
+    margin-left: 140px;
+  }
 }
 
 .search-form {
@@ -154,6 +171,9 @@ nav.navbar {
 
 #search-box {
   font-size: 1.25em;
+  @media (max-width: 359px) {
+    font-size: .75em;
+  }
   @media (min-width: 992px) {
     font-size: 1.5em;
   }
@@ -175,6 +195,11 @@ nav.navbar {
   background-position: center center;
   min-height: 43vh;
   color: white;
+  @media (max-width: 359px) {
+    h1 {
+      font-size: 2em;
+    }
+  }
   .card {
     background: $frankincense;
   }
@@ -183,11 +208,16 @@ nav.navbar {
 .search-neighborhood-label {
   font-size: 1.25em;
 }
+#search-local-input-element {
+  @media (max-width: 359px) {
+    font-size: .75em;
+  }
+}
 
 
 .footer-container {
   background: #FFFFFF;
-  min-height: 300px;
+  min-height: 250px;
   color: #141414;
   font-family: 'Raleway';
   border-bottom: 10px solid $frankincense;
