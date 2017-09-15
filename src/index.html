@@ -114,9 +114,10 @@
                       </div>
                     </div>
                   </div>
-                  <div class="form-group row d-flex align-items-center">
-                    <div class="col-6" id="slider"></div><span class="col-2">Price Range</span>
-                    <input type="checkbox">&nbsp;$1M+
+                  <div class="row d-flex text-left">
+                    <label class="col-12"><input type="checkbox" name="query-price-range"> Price Range:</label>
+                    <div class="col-12 col-lg-10" id="slider"></div>
+                    <span class="col-12 col-lg-2 text-right text-lg-center" id="1M-chkbx"><input type="checkbox" disabled="true">&nbsp;$1M+</span>
                   </div>
                 </form>
               </div>
@@ -214,100 +215,55 @@
 
 
       <!-- Trending Now -->
-    <section data-description="trending-now">
-      <div class="container-fluid trending-now-container">
-        <div class="row">
+    <section data-description="news-and-trends">
+      <div class="container-fluid news-and-trends-container">
+        <div class="row" id="news-and-trends-row">
           <div class="container">
-            <div class="trending-now-content-wrapper text-white">
-              <h1 class="mx-3 pt-5">Trending Now</h1>
-              <p style="text-indent: 40px;">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="news-and-trends-content-wrapper text-white">
+              <h1 class="mx-3 pt-5">News &amp; Trends</h1>
+              <img class="m-3" src="http://www.placehold.it/200x200" alt="" style="float: right">
+              <p>
+                Lorem ipsum dolor sit amet, eam et duis minim delenit, et atomorum sensibus vim. No vel vidit omnesque, mutat voluptaria expetendis ei per, ea est aliquid electram dissentias. Eu melius deterruisset vim. Ad dicant epicuri eleifend eam.
               </p>
-              <button class="btn mx-4">Read More</button>
+              <p>
+                Qui in iisque concludaturque. No quo equidem tacimates molestiae. Idque dicunt ius ut. Sint eligendi facilisi ei ius. Dico assueverit mei ad, quo in mollis intellegebat.
+              </p>
+              <p>
+                Elitr graece nusquam eu nam, in est adhuc audiam placerat, id sit officiis iracundia. Modo percipit an sed, maluisset mnesarchum dissentias ei duo. Eos ei illud solet sensibus, et per vitae docendi accusam, te usu duis convenire. Sed alienum lucilius sensibus in, vel iracundia repudiandae ei. Wisi error temporibus ne ius. In nobis iudicabit eum, ad ius ferri omnis suavitate, summo detraxit consequat per ea.
+              </p>
+              <p>
+                Vix te rebum nulla sonet. Sonet feugait accusamus id per. Pro id odio partiendo, mea clita instructior et. Qui possit detracto nominavi ad, ad usu tollit melius. Cu aperiri lobortis sit, mei in eruditi vocibus fuisset. Quaeque epicuri vis no, vim ex admodum perfecto.
+              </p>
+              <p>
+                Sea an detraxit consectetuer, no pri dicta ubique accusata. Vis putant interesset ea, tincidunt disputationi quo ea. Vocent animal nam ea, ea alienum dissentiet disputationi eum. Eam ne cetero postulant, duo ei suscipit accommodare philosophia. Cum ad quas latine.
+              </p>
+              <button class="btn btn-outline-secondary m-5">Read More</button>
             </div>
           </div>
         </div>
       </div>
     </section>    
 
-    <section data-description="new-builds">
-      <div class="container-fluid new-builds-container pb-5">
-        <div class="container">
-          <h1 class="pt-4 mx-3">New Builds</h1>
-          <p style="text-indent: 30px;">
-            Here at Signature we are dedicated to bringing you the latest news about ongoing and forthcoming local constructions...
-          </p>
-          
-          <div class="row">
-            <div class="col-4 col-md-3 p-3 text-center">
-              <div class="card p-3">
-                <h5>Heading</h5>
-                <a href="#">
-                  <img class="foundation" src="http://www.placehold.it/396x225" alt="">
-                </a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <div class="col-4 col-md-3 p-3 text-center">
-              <div class="card p-3">
-                <h5>Heading</h5>
-                <a href="#">
-                  <img class="foundation" src="http://www.placehold.it/396x225" alt="">
-                </a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <div class="col-4 col-md-3 p-3 text-center">
-              <div class="card p-3">
-                <h5>Heading</h5>
-                <a href="#">
-                  <img class="foundation" src="http://www.placehold.it/396x225" alt="">
-                </a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <div class="col-4 col-md-3 p-3 d-none d-md-block text-center">
-              <div class="card p-3">
-                <h5>Heading</h5>
-                <a href="#">
-                  <img class="foundation" src="http://www.placehold.it/396x225" alt="">
-                </a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-          </div> <!-- row -->
-        </div> <!-- container -->
-      </div> <!-- new-builds-container -->
-    </section>
-  
 
     <section data-description="find-your-neighborhood">
-      <div class="container-fluid find-your-neighborhood-container py-5">
+      <div class="container-fluid find-your-neighborhood-container pb-5">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12 bg-inverse mb-5">
             <div class="container">
-              <h1 class="mx-3">Find Your Neighborhood</h1>
-              <p style="text-indent: 30px;">
-                Get the latest info on your neighborhood. Specs, convenience reports, etc.
+              <h1 class="mx-3 pt-3">Find Your Neighborhood</h1>
+              <p>
+                Get the latest info on your neighborhood. Specs, convenience, reports, etc.
               </p>
             </div>
           </div>
           <div class="col-12 col-lg-8 mx-auto m-4 p-5 card">
             <form action="">
               <div class="row d-flex">
-                <div class="col-2 d-flex justify-content-end align-self-center">
-                  <label for="search-neighborhood" class="search-neighborhood-label">Search Local: </label>
+                <div class="col-12 col-lg-4 d-lg-flex justify-content-end align-self-center">
+                  <label for="search-neighborhood" class="search-neighborhood-label">Search Local:</label>
                 </div>
-                <div class="col-10 d-flex justify-content-start align-self-center">
-                  <input name="search-neighborhood" type="text" class="form-control" >
+                <div class="col-12 col-lg-8 d-lg-flex justify-content-start align-self-center">
+                  <input name="search-neighborhood" type="text" class="form-control" placeholder="Address, City, Zip, or Neighborhood">
                 </div>
               </div>
             </form>
@@ -435,16 +391,16 @@
           <div class="col-12">
             <ul class="d-flex justify-content-around mb-4 pl-0">
               <li>
-                <img src="http://www.placehold.it/128x128" alt="">
+                <img class="foundation" src="http://www.placehold.it/128x128" alt="">
               </li>
               <li>
-                <img src="http://www.placehold.it/128x128" alt="">
+                <img class="foundation" src="http://www.placehold.it/128x128" alt="">
               </li>
               <li>
-                <img src="http://www.placehold.it/128x128" alt="">
+                <img class="foundation" src="http://www.placehold.it/128x128" alt="">
               </li>
               <li>
-                <img src="http://www.placehold.it/128x128" alt="">
+                <img class="foundation" src="http://www.placehold.it/128x128" alt="">
               </li>
             </ul>
           </div>

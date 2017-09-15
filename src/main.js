@@ -17,7 +17,8 @@ $(document).ready(function() {
     max: 1000000,
     step: 25000,
     range: true,
-    values: [250000, 350000]
+    values: [250000, 350000],
+    disabled: true
   });
 });
 
