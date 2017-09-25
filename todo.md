@@ -12,6 +12,7 @@
 3. Make a carousel at the bottom of the News section.
 4. Some overflow on Nexus 6P and iPhone 5 (a few others when the screen is turned sideways)
 5. Figure out and use jQuery UI. Their widget factory is top-notch! Try integrating it with Bootstrap.
+6. Give footer a blue "More..." instead of showing all items at once while screen is less than 400 pixels wide.
 
 
 # General
